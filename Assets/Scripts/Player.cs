@@ -42,7 +42,7 @@ public class Player : MonoBehaviour
     {
         // If you get to the point where the player state is now something not true,
         // then you would never get access to the input commands below the if statement.
-        // I.e. it turns off the ability for the player to control the character
+        // I.e. It turns off the ability for the player to control the character
         // running arround in the world.
         if (!isAlive)
         {
